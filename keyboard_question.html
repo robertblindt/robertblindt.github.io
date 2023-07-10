@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicons/favicon.ico">
+    <link rel="stylesheet" href="main.css">
+    <title>RB Keyboard Questionnaire</title>
+</head>
+
+<body>
+    <header>
+    <nav id="nav">
+        <div class="left-nav">
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li>Keyboard Questionnaire</a></li>
+        </ul>
+        </div>
+
+    </nav>
+    </header>
+    
+    <div class="keyboard-image">
+        <div class="header-text">
+            <h1>Robert Blindt</h1>
+            <p>Keyboard Questionnaire</p>
+        </div>
+    </div>
+
+    <main>
+        <div id="main">
+            <article class="keyboard-question">
+                <h1>Keyboard Questionnaire</h1>
+                <p>
+                    I used to have a lot of bad tendencies when I typed, and they exacerbated some of the fine motor 
+                    skill related issues I was having.  I started using 'ergonomic keyboards' that aimed to straighten 
+                    out the typing action but most of the ones that I could find were imperfect and very bulky, and my desk is not very deep.
+                    I came across a few commercially available split ortholinear keyboards, but they were very expensive
+                    so I built my own and create a custom keymap!  
+                </p>
+                <p>
+                    In short, there is a reprogrammable chip inside each of the sides that I can flash to change the keyboard layouts.
+                    Unlike most normal keyboards, there are action keys that you can use to move between 'keyboard layers' to overcome
+                    the reduced number of keys (kind of like numlock, but it totally changes the destination key instead of the modifier).  
+                </p>
+                <p>
+                    In my keyboard I have 4 layers. A primary layer (Layer 0), 2 layers that are controlled by 'momentary switches' (Layer 1 and Layer 2), 
+                    meaning the layer becomes active while the button is being pressed, and a toggled layer (Layer 3), meaning I just need to click the 
+                    button to move into and out of the mode.  Layer 3 is specifically for video games, however the momentary switched layers I am constantly using
+                    for productivity. There are some mapped buttons that I do not regularly use, like the windows shortcuts and RGB controls, and also some 
+                    layers with multiples of the same key like the square brackets.  
+                </p>
+                <p>
+                    The goal at the end of the day is to limit the amount of distance that each finger has to move for any given key, but keep functionality.
+                    My question for you is:
+                </p>
+                <form action="mailto:robertjblindt@gmail.com" method="POST">
+                    <label for="question"><strong>
+                        What do you think I am missing from my keyboard for functionality? Do you think I should move anything around 
+                        to make any shortcuts easier? 
+                    </strong></label>
+                    <p>
+                    Things like Shift + Ctrl + Right are achievable by sequencing Shift > [MO1 + Right] + Ctrl )
+                    </p>
+                    <p>
+                    The triangles in the images below mean 'default to previous layer'
+                    </p>
+
+                    <figure>
+                    <figurecaption>Roberts Iris Layer 0</figurecaption>
+                        <img src="/images/iris_layer0.PNG" alt="Iris Layer 0" style="width:100%">
+                    </figure>
+
+                    <figure>
+                        <figurecaption>Roberts Iris Layer 1 (Momentary Left Thumb)</figurecaption>
+                            <img src="/images/iris_layer1.PNG" alt="Iris Layer 1" style="width:100%">
+                    </figure>
+
+                    <figure>
+                        <figurecaption>Roberts Iris Layer 2 (Momentary Right Thumb)</figurecaption>
+                            <img src="/images/iris_layer2.PNG" alt="Iris Layer 2" style="width:100%">
+                    </figure>
+
+                    <figure>
+                        <figurecaption>Roberts Iris Layer 3 (Toggled in Momentary)</figurecaption>
+                            <img src="/images/iris_layer3.PNG" alt="Iris Layer 3" style="width:100%">
+                    </figure>
+
+                    <br>
+                    <div>
+                        <label for="name-field"><strong>Your Full Name</strong></label> 
+                    </div>
+                    <input name="name-field" type="text" placeholder="Name" id="name-field" style="width: 33%; max-width: 33%;">
+                    <br><br>
+                    <div>
+                        <label for="email"><b>Write your Email here</b></label>
+                    </div>
+                    <input name="email" type="text" placeholder="email@server.com" id="email" style="width: 33%; max-width: 33%;"><br><br>
+                    <div>
+                    <label for="question"><strong>
+                        What do you think I am missing from my keyboard for functionality? Do you think I should move anything around 
+                        to make any shortcuts easier? 
+                    </strong></label>
+                    </div>
+                    <textarea name="question" id="question" placeholder="Move a Home and End button to layer 2 in place of one of your sets of square brackets" rows="3" style="width: 95%; max-width: 95%;"></textarea>
+                    <br>
+                    <button type="submit" title="Submit this form to your mailer to send">Submit</button>
+                </form>
+                <p style="text-align: center;">
+                    <a href="#nav"><i>Return to top</i></a>
+                </p>
+            </article>
+            
+        </div>
+        <div id="side">
+            <article class="side-article">
+                <a href="/docs/Robert_Blindt_Resume.pdf" target="_blank" title="To Roberts Resume">
+                    <img src="/images/Picofme.jpg" alt="Photo of Me" id="photo-of-me">
+                </a>
+                <p>
+                    <a href="https://github.com/robertblindt" target="_blank">
+                        <img src="https://img.shields.io/badge/robertblindt-4078c0?style=for-the-badge&logo=github&logoColor=white" title="To Roberts Github"></a>
+                    <a href="https://www.linkedin.com/in/robertblindt/" target="_blank">
+                        <img src="https://img.shields.io/badge/robertblindt-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" title="To Roberts Linkedin"></a>
+                    <a href="mailto:robertjblindt@gmail.com?subject=%20Hello%20Robert" >    
+                        <img src="https://img.shields.io/badge/robertjblindt-EA4335?style=for-the-badge&logo=gmail&logoColor=white" title="Email Roberts"></a>
+                </p>
+            </article>
+            <article class="side-article" id="keyboards-i-use">
+                <h4>Keyboards for Reference</h4>
+                <ul>
+                    <li><a href="https://docs.taikohub.com/" target="_blank" title="Link to Dactyl Setup Page">Dactyl Manuform</a></li>
+                    <li><a href="https://www.microsoft.com/en/accessories/products/keyboards/sculpt-ergonomic-desktop?activetab=pivot:overviewtab" target="_blank" title="Link to Microsoft Sales Page">Microsoft Sculpt</a></li>
+                    <li><a href="https://www.reddit.com/r/MechanicalKeyboards/comments/npp0ha/keebio_bfo9000_build/" target="_blank" title="Link to Reddit article showing off someones build">BFO-9000</a></li>
+                </ul>
+            </article>
+        </div>
+        
+    </main>
+
+    <footer>
+        <hr>
+        <div>
+            &copy Robert Blindt
+        </div>
+    </footer>
+</body>
+</html>
